@@ -11,7 +11,7 @@ export const projects = [
     description: "Stock trading dashboard with real-time data visualization using Chart.js.",
     tech: ["MERN Stack", "Material UI"],
     link: "https://github.com/Abanisikder/Zerodha_trading_project",
-    image:"/project.png"
+    image:"/home .png"
   },
   {
   title: "Airbnb project",
