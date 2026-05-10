@@ -63,7 +63,7 @@ export default function ProjectsPage() {
     <main className="min-h-screen bg-[#080808] text-white">
       <Navbar />
       
-      {/* Background Glows (একটু ব্রাইট করা হয়েছে যাতে ছবি ভালো দেখায়) */}
+    
       <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute top-[-5%] left-[-5%] w-[40%] h-[40%] bg-blue-600/10 rounded-full blur-[120px]"></div>
         <div className="absolute bottom-[0%] right-[0%] w-[30%] h-[30%] bg-purple-600/10 rounded-full blur-[100px]"></div>
@@ -87,7 +87,7 @@ export default function ProjectsPage() {
               key={idx}
               className="group relative flex flex-col bg-[#111] rounded-[2.5rem] border border-white/5 overflow-hidden hover:border-blue-500/40 transition-all duration-500 shadow-2xl"
             >
-              {/* Image Section - ব্রাইটনেস বাড়ানো হয়েছে */}
+              {/* Image Section -  */}
               <div className="relative h-[320px] w-full overflow-hidden bg-[#1a1a1a]">
                 {project.image ? (
                   <img 
@@ -101,7 +101,7 @@ export default function ProjectsPage() {
                   </div>
                 )}
                 
-                {/* Subtle Gradient (শুধু নিচের টেক্সট এরিয়ার জন্য) */}
+                {/* Subtle Gradient ( */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-transparent to-transparent opacity-60"></div>
                 
                 {/* Explore Badge */}
